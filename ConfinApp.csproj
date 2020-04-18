@@ -47,6 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Film.cs" />
+    <Compile Include="Filmothèque\Data.cs" />
     <Compile Include="Filmothèque\Menu.cs">
       <SubType>Form</SubType>
     </Compile>
