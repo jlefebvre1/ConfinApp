@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PasswordGenerator\PasswordGenerator.csproj">
+      <Project>{942820e0-1fe3-40d6-a47f-add4d1684125}</Project>
+      <Name>PasswordGenerator</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

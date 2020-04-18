@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PasswordGenerator;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,7 +18,15 @@ namespace ConfinApp
             InitializeComponent();
         }
 
+        private void buttonClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
 
-
+        private void buttonPasswordGenerator_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.Show();
+        }
     }
 }
